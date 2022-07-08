@@ -1,0 +1,414 @@
+[{
+        "label_pet_name": "超级管理员",
+        "label_name": "super_admin",
+        "label_user": 0,
+        "menu": [{
+            "menu_name": "主页",
+            "menu_icon": "el-icon-monitor",
+            "menu_show_status": 1,
+            "children": [{
+                "menu_name": "数据监控",
+                "menu_icon": "el-icon-cpu",
+                "path": "/home",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }]
+        }, {
+            "menu_name": "组件管理",
+            "menu_icon": "el-icon-star-off",
+            "menu_show_status": 1,
+            "children": [{
+                "menu_name": "组件管理",
+                "menu_icon": "el-icon-star-off",
+                "path": "/sub/admin",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }]
+        }, {
+            "menu_name": "用户管理",
+            "menu_icon": "el-icon-user",
+            "menu_show_status": 1,
+            "children": [{
+                "menu_name": "用户管理",
+                "path": "/user/label",
+                "menu_icon": "el-icon-user",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }]
+        }, {
+            "menu_name": "开发文档",
+            "menu_icon": "el-icon-tickets",
+            "menu_show_status": 1,
+            "children": [{
+                "menu_name": "unitui介绍",
+                "path": "/unit/adress",
+                "menu_icon": "el-icon-tickets",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "动态路由",
+                "path": "/unit/adress/route",
+                "menu_icon": "el-icon-star-off",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "动态菜单",
+                "path": "/unit/adress/menu",
+                "menu_icon": "el-icon-s-grid",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "框架响应介绍",
+                "path": "/unit/adress/res",
+                "menu_icon": "el-icon-mobile-phone",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "Axios",
+                "path": "/unit/adress/axios",
+                "menu_icon": "el-icon-chat-line-square",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "更新日志",
+                "path": "/unit/update",
+                "menu_icon": "el-icon-info",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }]
+        }],
+        "route": [{
+            "path": "/user/label",
+            "name": "user_label",
+            "component": "uviews/user/UserLabel.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "用户管理"
+            }
+        }, {
+            "path": "/unit/adress/axios",
+            "name": "axios",
+            "component": "uviews/unit_adress/UnituiAxios.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "Axios"
+            }
+        }, {
+            "path": "/unit/adress/res",
+            "name": "responsive",
+            "component": "uviews/unit_adress/UnitResposive.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "响应介绍"
+            }
+        }, {
+            "path": "/unit/update",
+            "name": "update",
+            "component": "uviews/unit_adress/UpdateAdress.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "更新日志"
+            }
+        }, {
+            "path": "/unit/adress/menu",
+            "name": "unit_adress_menu",
+            "component": "uviews/unit_adress/AutoMenu.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "动态菜单"
+            }
+        }, {
+            "path": "/unit/adress/route",
+            "name": "unit_adress_route",
+            "component": "uviews/unit_adress/AutoRoute.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "动态路由"
+            }
+        }, {
+            "path": "/unit/adress",
+            "name": "unit_adress",
+            "component": "uviews/unit_adress/UnituiAdress.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "unitui介绍"
+            }
+        }, {
+            "path": "/home",
+            "name": "home",
+            "component": "uviews/home/Home.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "主页"
+            },
+            "children": [{
+                "path": "home",
+                "name": "home",
+                "component": "/views/hoe/Home.vue",
+                "meta": {
+                    "show_site": 1,
+                    "web_title": "主页-嵌套"
+                }
+            }]
+        }, {
+            "path": "/sub/admin",
+            "name": "sub_admin",
+            "component": "unitui/subadmin/SubAdmin.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "组件管理"
+            },
+            "children": []
+        }]
+    },
+    {
+        "label_pet_name": "管理员",
+        "label_name": "admin",
+        "label_user": 0,
+        "menu": [{
+            "menu_name": "主页",
+            "menu_icon": "el-icon-monitor",
+            "menu_show_status": 1,
+            "children": [{
+                "menu_name": "数据监控",
+                "menu_icon": "el-icon-cpu",
+                "path": "/home",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }]
+        }, {
+            "menu_name": "用户管理",
+            "menu_icon": "el-icon-user",
+            "menu_show_status": 1,
+            "children": [{
+                "menu_name": "用户管理",
+                "path": "/user/label",
+                "menu_icon": "el-icon-user",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }]
+        }, {
+            "menu_name": "开发文档",
+            "menu_icon": "el-icon-tickets",
+            "menu_show_status": 1,
+            "children": [{
+                "menu_name": "unitui介绍",
+                "path": "/unit/adress",
+                "menu_icon": "el-icon-tickets",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "动态路由",
+                "path": "/unit/adress/route",
+                "menu_icon": "el-icon-star-off",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "动态菜单",
+                "path": "/unit/adress/menu",
+                "menu_icon": "el-icon-s-grid",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "框架响应介绍",
+                "path": "/unit/adress/res",
+                "menu_icon": "el-icon-mobile-phone",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "Axios",
+                "path": "/unit/adress/axios",
+                "menu_icon": "el-icon-chat-line-square",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "更新日志",
+                "path": "/unit/update",
+                "menu_icon": "el-icon-info",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }]
+        }],
+        "route": [{
+            "path": "/user/label",
+            "name": "user_label",
+            "component": "uviews/user/UserLabel.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "用户管理"
+            }
+        }, {
+            "path": "/unit/adress/axios",
+            "name": "axios",
+            "component": "uviews/unit_adress/UnituiAxios.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "Axios"
+            }
+        }, {
+            "path": "/unit/adress/res",
+            "name": "responsive",
+            "component": "uviews/unit_adress/UnitResposive.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "响应介绍"
+            }
+        }, {
+            "path": "/unit/update",
+            "name": "update",
+            "component": "uviews/unit_adress/UpdateAdress.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "更新日志"
+            }
+        }, {
+            "path": "/unit/adress/menu",
+            "name": "unit_adress_menu",
+            "component": "uviews/unit_adress/AutoMenu.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "动态菜单"
+            }
+        }, {
+            "path": "/unit/adress/route",
+            "name": "unit_adress_route",
+            "component": "uviews/unit_adress/AutoRoute.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "动态路由"
+            }
+        }, {
+            "path": "/unit/adress",
+            "name": "unit_adress",
+            "component": "uviews/unit_adress/UnituiAdress.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "unitui介绍"
+            }
+        }, {
+            "path": "/home",
+            "name": "home",
+            "component": "uviews/home/Home.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "主页"
+            },
+            "children": [{
+                "path": "home",
+                "name": "home",
+                "component": "/views/hoe/Home.vue",
+                "meta": {
+                    "show_site": 1,
+                    "web_title": "主页-嵌套"
+                }
+            }]
+        }]
+    },
+    {
+        "label_pet_name": "普通用户",
+        "label_name": "user",
+        "label_user": 0,
+        "menu": [{
+            "menu_name": "主页",
+            "menu_icon": "el-icon-monitor",
+            "menu_show_status": 1,
+            "children": [{
+                "menu_name": "数据监控",
+                "menu_icon": "el-icon-cpu",
+                "path": "/home",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }]
+        }, {
+            "menu_name": "开发文档",
+            "menu_icon": "el-icon-tickets",
+            "menu_show_status": 1,
+            "children": [{
+                "menu_name": "unitui介绍",
+                "path": "/unit/adress",
+                "menu_icon": "el-icon-tickets",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "动态路由",
+                "path": "/unit/adress/route",
+                "menu_icon": "el-icon-star-off",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "动态菜单",
+                "path": "/unit/adress/menu",
+                "menu_icon": "el-icon-s-grid",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "框架响应介绍",
+                "path": "/unit/adress/res",
+                "menu_icon": "el-icon-mobile-phone",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "Axios",
+                "path": "/unit/adress/axios",
+                "menu_icon": "el-icon-chat-line-square",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }, {
+                "menu_name": "更新日志",
+                "path": "/unit/update",
+                "menu_icon": "el-icon-info",
+                "menu_show_status": 1,
+                "menu_vist_status": 1
+            }]
+        }],
+        "route": [{
+            "path": "/unit/adress/axios",
+            "name": "axios",
+            "component": "uviews/unit_adress/UnituiAxios.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "Axios"
+            }
+        }, {
+            "path": "/unit/adress/res",
+            "name": "responsive",
+            "component": "uviews/unit_adress/UnitResposive.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "响应介绍"
+            }
+        }, {
+            "path": "/unit/update",
+            "name": "update",
+            "component": "uviews/unit_adress/UpdateAdress.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "更新日志"
+            }
+        }, {
+            "path": "/unit/adress/menu",
+            "name": "unit_adress_menu",
+            "component": "uviews/unit_adress/AutoMenu.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "动态菜单"
+            }
+        }, {
+            "path": "/unit/adress/route",
+            "name": "unit_adress_route",
+            "component": "uviews/unit_adress/AutoRoute.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "动态路由"
+            }
+        }, {
+            "path": "/unit/adress",
+            "name": "unit_adress",
+            "component": "uviews/unit_adress/UnituiAdress.vue",
+            "meta": {
+                "show_site": 1,
+                "web_title": "unitui介绍"
+            }
+        }]
+    }
+]

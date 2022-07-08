@@ -1,0 +1,148 @@
+[{
+    "path": "/unit/qrcode",
+    "name": "unit_qrcode",
+    "component": "uviews/unit/Qrcode.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "二维码"
+    }
+},{
+    "path": "/dict",
+    "name": "dict",
+    "component": "uviews/dict/dict.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "字典"
+    }
+},{
+    "path": "/question",
+    "name": "questionList",
+    "component": "views/question/questionList.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "问题"
+    }
+}, {
+    "path": "/crypto",
+    "name": "crypto",
+    "component": "uviews/crypto/Crypto.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "加密"
+    }
+}, {
+    "path": "/sub/menu",
+    "name": "sub_menu",
+    "component": "unitui/subadmin/sub/MenuAdmin.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "菜单管理"
+    }
+}, {
+    "path": "/sub/route",
+    "name": "sub_route",
+    "component": "unitui/subadmin/sub/RouteAdmin.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "路由管理"
+    }
+}, {
+    "path": "/web/update",
+    "name": "web_update",
+    "component": "uviews/web_admin/Update.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "更新日志"
+    }
+}, {
+    "path": "/msg/notice",
+    "name": "msg_notice",
+    "component": "uviews/message/Notice.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "通知"
+    }
+}, {
+    "path": "/unit/count",
+    "name": "unit_count",
+    "component": "uviews/unit/Count.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "计数"
+    }
+}, {
+    "path": "/echarts/echarts",
+    "name": "echarts",
+    "component": "uviews/unit/Echarts.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "图表"
+    },
+    "children": []
+}, {
+    "path": "/unit/tiny",
+    "name": "unit_tinymce",
+    "component": "uviews/unit/Edit.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "tiymce富文本"
+    }
+}, {
+    "path": "/unit/page",
+    "name": "unit_page",
+    "component": "uviews/unit/Page.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "响应页码选择"
+    }
+}, {
+    "path": "/unit/icon",
+    "name": "unit_icon",
+    "component": "uviews/unit/Icon.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "图标选择"
+    }
+}, {
+    "path": "/unit/card",
+    "name": "unit_card",
+    "component": "uviews/unit/Card.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "卡片"
+    }
+}, {
+    "path": "/user/admin",
+    "name": "user_admin",
+    "component": "uviews/user/User.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "用户管理"
+    }
+}, {
+    "path": "/user/label",
+    "name": "user_label",
+    "component": "uviews/user/UserLabel.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "用户类别"
+    }
+}, {
+    "path": "/home",
+    "name": "home",
+    "component": "uviews/home/Home.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "主页"
+    },
+    "children": []
+}, {
+    "path": "/sub/admin",
+    "name": "sub_admin",
+    "component": "unitui/subadmin/SubAdmin.vue",
+    "meta": {
+        "show_site": 1,
+        "web_title": "组件管理"
+    },
+    "children": []
+}]

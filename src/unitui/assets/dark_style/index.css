@@ -1,0 +1,220 @@
+@import url('./theme-chalk/index.css');
+i{
+  color: rgb(224, 224, 224);
+}
+p{
+  color: rgb(224, 224, 224);
+}
+span{
+  color: rgb(224, 224, 224);
+}
+/* unitui框架部分 */
+/* unituilogo信息 */
+#unitui_logo {
+    width: 100%;
+    height: 60px;
+}
+/* unituilogo颜色 */
+#unitui_logo p {
+    color: #0acf97;
+    font-size: 30px;
+    padding-top: 10px
+}
+/* 左侧菜单 */
+#aside_menu {
+    height: calc(100vh - 65px);
+    overflow: auto;
+}
+/* 隐藏左侧菜单 */
+#aside_menu::-webkit-scrollbar { width: 0 !important }
+/* 顶部用户头像背景 */
+#user_avatar{
+  width: 78px;
+  height: 30px;
+  background-color: rgb(240, 240, 240);
+  margin-top:15px;
+  border-radius: 50px;
+}
+/* 底部设计 */
+#foot_title {
+    margin-top: 20px;
+    color: rgb(123, 160, 161);
+}
+/* 左侧drawer菜单 */
+.aside_drawer_menu_back{
+  background-color: #485464;
+  margin-top: 0px;
+}
+/* 顶部css */
+.head_menu{
+  box-shadow: 2px 0px 5px #0000001c;
+  background-color: #485464;
+  height: 100%;
+}
+#aside_menu_icon {
+  float: left;
+  cursor: pointer;
+  margin: 23px 0px 0px 15px;
+  font-size: 17px;
+  color: #cccccc;
+}
+#head_full_screen {
+  margin-right: 0px;
+  margin-top: 27px;
+  float: right;
+  cursor: pointer;
+  color: #cccccc;
+}
+#head_msg_badge {
+  margin-right: 30px;
+  margin-top: 25px;
+  float: right;
+  cursor: pointer;
+  color: #cccccc;
+}
+#head_vist_menu {
+  float: left;
+  margin-left: 10px;
+  padding-top: 5px;
+  color: #cccccc;
+}
+/* tab栏 */
+.menu_tab_back {
+    width: calc(100% - 0px);
+    height: 35px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #61758d;
+    z-index:2;
+    padding: initial;
+    padding-top: 5px;
+    margin-top:0px;
+    /* box-shadow: 5px 0px 5px #6b6b6bc4; */
+  }
+  /* unituitab栏左侧 */
+  .menu_tab_left {
+    width: 30px;
+    height: 35px;
+    background-color: rgba(160, 39, 39, 0);
+  }
+  /* unituitab栏内容 */
+  .menu_tab {
+    width: calc(100% - 50px);
+    height: 35px;
+    background-color: rgba(238, 164, 164, 0);
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+  /* unituitab栏右侧 */
+  .menu_tab_right {
+    width: 30px;
+    height: 35px;
+    background-color: rgba(160, 39, 39, 0);
+  }
+  /* unituitab栏滚动条隐藏 */
+  .menu_tab::-webkit-scrollbar {
+    display: none;
+  }
+  /* 定义图标活动状态 */
+  i:active{
+      color: #DCDFE6;
+  }
+
+  /* 右侧设置区域 */
+  .setting {
+    width: 50px;
+    height: 50px;
+    background-color: #313a46de;
+    border-radius: 5px 0px 0px 5px;
+    cursor: pointer;
+    position: fixed;
+    z-index: 999;
+    right: 0px;
+    top: 250px;
+  }
+  .el-icon-setting {
+    color: rgb(175, 175, 175);
+    font-size: 25px;
+    margin-top: 12.5px;
+    margin-left: 13px;
+    animation: rotate 5s infinite linear;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  .el-icon-setting:hover {
+    color: rgb(175, 175, 175);
+    font-size: 25px;
+    margin-top: 12.5px;
+    margin-left: 13px;
+    animation: rotate2 1s infinite linear;
+  }
+  
+  @keyframes rotate2 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+/* 定义滚动条 */
+/*定义滚动条的整体样式使其变窄*/
+/* 1,滚动条 */
+::-webkit-scrollbar {
+  width: 10px;
+  /* 纵向滚动条 宽度 */
+  height: 10px;
+  /* 横向滚动条 高度 */
+  background: rgba(226, 226, 226, 0.363);
+  /* 整体背景 */
+  border-radius: 10px;
+  /* 整体 圆角 */
+}
+/* 2,滚动条两端的按钮 */
+::-webkit-scrollbar-button {
+  width: 0px;
+  /* 横向滚动条 宽度 */
+  height: 0px;
+  /* 纵向滚动条 高度 */
+  background: black;
+  border-radius: 10px;
+}
+/* 3,外层轨道 */
+::-webkit-scrollbar-track {
+  /* background: red; */
+  border-radius: 10px;
+}
+/* 4.内层轨道，它会覆盖外层轨道的样式。 */
+::-webkit-scrollbar-track-piece {
+  width: 5px;
+  background-color: rgb(226, 226, 226);
+  margin: 0 -2px 0;
+  border-radius: 10px;
+}
+/* 5,滑块 */
+::-webkit-scrollbar-thumb {
+  background: #bec5ca;
+  min-height: 50px;
+  min-width: 50px;
+  border-radius: 10px;
+}
+/* 纵向滑块悬浮 */
+::-webkit-scrollbar-thumb:vertical:hover {
+  background: #727cf5;
+}
+/* 横向滑块悬浮 */
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background: #727cf5
+}
+/* 6,边角，两个滚动条交汇处 */
+::-webkit-scrollbar-corner {
+  background: rgba(0, 0, 255, 0);
+}

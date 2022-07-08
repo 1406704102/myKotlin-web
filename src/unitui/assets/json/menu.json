@@ -1,0 +1,149 @@
+[{
+    "menu_name": "主页",
+    "menu_icon": "el-icon-monitor",
+    "menu_show_status": 1,
+    "children": [{
+        "menu_name": "数据监控",
+        "menu_icon": "el-icon-cpu",
+        "path": "/home",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }]
+}, {
+    "menu_name": "组件管理",
+    "menu_icon": "el-icon-star-off",
+    "menu_show_status": 1,
+    "children": [{
+        "menu_name": "组件管理",
+        "menu_icon": "el-icon-star-off",
+        "path": "/sub/admin",
+        "menu_show_status": 0,
+        "menu_vist_status": 1
+    }, {
+        "menu_name": "路由管理",
+        "path": "/sub/route",
+        "menu_icon": "el-icon-connection",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }, {
+        "menu_name": "菜单管理",
+        "path": "/sub/menu",
+        "menu_icon": "el-icon-s-grid",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }]
+}, {
+    "menu_name": "用户管理",
+    "menu_icon": "el-icon-user",
+    "menu_show_status": 1,
+    "children": [{
+        "menu_name": "用户类别",
+        "path": "/user/label",
+        "menu_icon": "el-icon-user",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }, {
+        "menu_name": "用户管理",
+        "path": "/user/admin",
+        "menu_icon": "el-icon-user-solid",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }]
+}, {
+    "menu_name": "消息",
+    "menu_icon": "el-icon-chat-dot-round",
+    "menu_show_status": 1,
+    "children": [{
+        "menu_name": "通知",
+        "path": "/msg/notice",
+        "menu_icon": "el-icon-chat-dot-square",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }]
+}, {
+    "menu_name": "功能组件",
+    "menu_icon": "el-icon-s-flag",
+    "menu_show_status": 1,
+    "children": [{
+        "menu_name": "卡片",
+        "path": "/unit/card",
+        "menu_icon": "el-icon-collection-tag",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }, {
+        "menu_name": "图标选择",
+        "path": "/unit/icon",
+        "menu_icon": "el-icon-search",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }, {
+        "menu_name": "响应页码",
+        "path": "/unit/page",
+        "menu_icon": "el-icon-reading",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }, {
+        "menu_name": "富文本",
+        "path": "/unit/tiny",
+        "menu_icon": "el-icon-edit-outline",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }, {
+        "menu_name": "图表",
+        "path": "/echarts/echarts",
+        "menu_icon": "el-icon-data-line",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }, {
+        "menu_name": "计数",
+        "path": "/unit/count",
+        "menu_icon": "el-icon-upload2",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }, {
+        "menu_name": "加密",
+        "path": "/crypto",
+        "menu_icon": "el-icon-document",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }, {
+        "menu_name": "二维码",
+        "path": "/unit/qrcode",
+        "menu_icon": "el-icon-picture-outline-round",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }]
+}, {
+    "menu_name": "网站管理",
+    "menu_icon": "el-icon-monitor",
+    "menu_show_status": 1,
+    "children": [{
+        "menu_name": "更新日志",
+        "path": "/web/update",
+        "menu_icon": "el-icon-refresh",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }]
+}, {
+    "menu_name": "字典管理",
+    "menu_icon": "el-icon-monitor",
+    "menu_show_status": 1,
+    "children": [{
+        "menu_name": "字典类型",
+        "path": "/dict",
+        "menu_icon": "el-icon-refresh",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }]
+}, {
+    "menu_name": "问题管理",
+    "menu_icon": "el-icon-monitor",
+    "menu_show_status": 1,
+    "children": [{
+        "menu_name": "问题信息",
+        "path": "/question",
+        "menu_icon": "el-icon-refresh",
+        "menu_show_status": 1,
+        "menu_vist_status": 1
+    }]
+}]
